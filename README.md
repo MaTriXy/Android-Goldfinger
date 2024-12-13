@@ -2,11 +2,31 @@
 
 <img src='./logo.svg' width='264'/>
 
-## Important
+## Description
+
+Android library to simplify Biometric authentication implementation.
+
+## Table of contents
+
+* [Requirements](#requirements)
+* [Getting started](#getting-started)
+* [Usage](#usage)
+* [Rx module](#rx-module)
+* [Configuration](#configuration)
+* [Known issues](#known-issues)
+* [Contributing](#contributing)
+* [License](#license)
+* [Credits](#credits)
+
+## Requirements
+
+The project requires a minimum API version 14.
+
+#### Important
 
 This version is compatible with `androidx.biometric`. If you do not want to use `androidx.biometric`, feel free to use [older version of Goldfinger](https://github.com/infinum/Android-Goldfinger/tree/v1.2.1).
 
-## Quick guide
+## Getting started
 
 #### Add mavenCentral
 
@@ -25,6 +45,8 @@ buildscript {
 ```gradle
 implementation 'com.infinum:goldfinger:2.2.0'
 ```
+
+## Usage
 
 #### Initialize
 
@@ -182,7 +204,12 @@ Logging is **off** by default. You can enable it by calling `Goldfinger.Builder(
 
 ## Contributing
 
-Feedback and code contributions are very much welcome. Just make a pull request with a short description of your changes. By making contributions to this project you give permission for your code to be used under the same [license](LICENSE).
+We believe that the community can help us improve and build better a product.
+Please refer to our [contributing guide](CONTRIBUTING.md) to learn about the types of contributions we accept and the process for submitting them.
+
+To ensure that our community remains respectful and professional, we defined a [code of conduct](CODE_OF_CONDUCT.md) <!-- and [coding standards](<link>) --> that we expect all contributors to follow.
+
+We appreciate your interest and look forward to your contributions.
 
 ## License
 
@@ -204,7 +231,7 @@ limitations under the License.
 
 ## Credits
 
-Maintained and sponsored by [Infinum](http://www.infinum.co).
+Maintained and sponsored by [Infinum](https://infinum.com).
 
 <p align="center">
   <a href='https://infinum.com'>
